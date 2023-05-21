@@ -13,7 +13,7 @@ class CollectionViewTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        contentView.backgroundColor = .systemGray
+        contentView.backgroundColor = .systemGray //hey
     }
     
     required init?(coder: NSCoder) {
